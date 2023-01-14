@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: net;
+}
+section {
+  background-color: black;
+  border-bottom: 8px solid rgb(34, 34, 34);
+}
+.hero-section-bg {
+  background-image: url("/netfclone/images/netflix-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.377) transparent 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border-bottom: 8px solid grey; */
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.66));
+}
+#hero-section .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  z-index: 3;
+}
+#hero-section .nav button {
+  color: black;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1.3rem;
+  border-radius: 0.2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#hero-section .exp {
+  text-align: center;
+  margin: auto;
+  z-index: 3;
+}
+h1 {
+  font-size: 3rem;
+}
+
+#hero-section .exp h1 {
+  font-size: 3rem;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+#hero-section .exp h3 {
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+#hero-section .exp p {
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+#hero-section .email-form {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+#hero-section .email-form button {
+  border: none;
+  color: black;
+  background-color: rgb(229, 9, 20);
+  padding: 1rem 2rem;
+}
+#hero-section .email-form input {
+  padding: 1rem 14rem 1rem 1rem;
+  font-size: 1rem;
+}
+#hero-section .email-form a {
+  color: white;
+  font-size: 1.8rem;
+}
+#tv-sect {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 7rem 4rem;
+  /* border-bottom: 8px solid rgb(65, 64, 64); */
+}
+#tv-sect .vid img {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+#tv-sect .vid .video {
+  position: absolute;
+  z-index: 1;
+  right: 10.5rem;
+  width: 420px;
+  height: 300px;
+  bottom: -25rem;
+}
+#tv-sect .tv-text h3,
+#phone-sect .phone-text h3,
+#watch h3,
+#kids .kids-text h3 {
+  font-size: 1.9rem;
+  margin: 1rem auto;
+  font-weight: 300;
+}
+#tv-sect .tv-text {
+  width: 60%;
+}
+#phone-sect,
+#kids {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 3rem;
+  /* border-bottom: 8px solid rgb(65, 64, 64); */
+}
+#phone-sect img {
+  width: 80%;
+  height: 60%;
+}
+#phone-sect .phone-text {
+  width: 50%;
+}
+#watch {
+  background-color: black;
+  padding: 3rem 9rem;
+  border-bottom: 8px solid rgb(34, 34, 34);
+}
+#watch h3 {
+  width: 55%;
+  margin: 1rem 0;
+}
+#kids {
+  padding: 3rem 8rem;
+}
+#kids .kids-text {
+  width: 55%;
+  margin: 1rem 0;
+}
+#kids img {
+  width: 90%;
+  height: 100%;
+}
+#faq h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+#faq ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: flex-start;
+  text-align: left;
+  margin: 0 17rem;
+  font-size: 1.7rem;
+}
+#faq ul li {
+  background-color: #303030;
+  padding: 1.5rem 8rem 1rem 2rem;
+  text-align: left;
+  margin: 0.2rem 0;
+}
+#faq .exp p {
+  text-align: center;
+  margin: 3.5rem 0 1rem;
+  font-size: 1.3rem;
+}
+#faq .email-form {
+  padding: 0 0 4rem 0;
+}
+footer {
+  background-color: black;
+  padding: 2rem 0;
+
+  text-align: left;
+  padding: 2rem 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: center; */
+}
+#footer {
+  display: flex;
+  justify-content: flex-start;
+}
+#footer ul {
+  list-style: none;
+  margin: 1rem 6.5rem 1rem 0;
+}
+#footer li,
+footer p {
+  margin: 0.8rem 0;
+  color: #6b6b6b;
+  font-size: 1rem;
+}
+footer .q {
+  margin: 1.8rem 0 1.3rem;
+  color: #6b6b6b;
+  font-size: 1.3rem;
+}
+#footer li:hover,
+footer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
