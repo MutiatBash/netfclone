@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-family: net;
+  font-family: Netflix Sans, Helvetica, Segeo UI;
+}
+.netf {
+  background-color: black;
 }
 section {
   background-color: black;
@@ -35,7 +38,8 @@ section {
 #hero-section .nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 4rem;
+  align-items: center;
+  padding: 0 3.5rem;
   z-index: 3;
 }
 #hero-section .nav button {
@@ -45,6 +49,9 @@ section {
   font-size: 1rem;
   padding: 0.5rem 1.3rem;
   border-radius: 0.2rem;
+}
+#hero-section .nav img {
+  width: 160px;
 }
 a {
   text-decoration: none;
@@ -57,6 +64,7 @@ a {
 }
 h1 {
   font-size: 3rem;
+  font-weight: 500;
 }
 
 #hero-section .exp h1 {
@@ -66,12 +74,13 @@ h1 {
   margin: 0 auto;
 }
 #hero-section .exp h3 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin: 1rem auto;
+  font-weight: 400;
 }
 #hero-section .exp p {
-  font-size: 1.5rem;
-  margin: 2rem auto;
+  font-size: 1.2rem;
+  margin: 2rem auto 1rem;
   text-align: center;
 }
 #hero-section .email-form {
@@ -83,7 +92,8 @@ h1 {
   border: none;
   color: black;
   background-color: rgb(229, 9, 20);
-  padding: 1rem 2rem;
+  padding: 0.9rem 1.8rem;
+  border-radius: 0 0.2rem 0.2rem 0;
 }
 #hero-section .email-form input {
   padding: 1rem 14rem 1rem 1rem;
@@ -91,7 +101,7 @@ h1 {
 }
 #hero-section .email-form a {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 #tv-sect {
   background-color: black;
@@ -113,13 +123,13 @@ h1 {
   right: 10.5rem;
   width: 420px;
   height: 300px;
-  bottom: -25rem;
+  bottom: -23rem;
 }
 #tv-sect .tv-text h3,
 #phone-sect .phone-text h3,
 #watch h3,
 #kids .kids-text h3 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   margin: 1rem auto;
   font-weight: 300;
 }
@@ -164,7 +174,7 @@ h1 {
 }
 #faq h1 {
   text-align: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 #faq ul {
   list-style: none;
@@ -185,7 +195,7 @@ h1 {
 #faq .exp p {
   text-align: center;
   margin: 3.5rem 0 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 #faq .email-form {
   padding: 0 0 4rem 0;
@@ -193,7 +203,6 @@ h1 {
 footer {
   background-color: black;
   padding: 2rem 0;
-
   text-align: left;
   padding: 2rem 14rem;
   display: flex;
@@ -213,12 +222,12 @@ footer {
 footer p {
   margin: 0.8rem 0;
   color: #6b6b6b;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 footer .q {
   margin: 1.8rem 0 1.3rem;
   color: #6b6b6b;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 #footer li:hover,
 footer p:hover {
